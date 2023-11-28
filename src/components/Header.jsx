@@ -56,19 +56,25 @@ const Header = () => {
           <ul className="flex flex-col items-center gap-4">
             <Link
               to="/"
-              className="text-base text-pink-500 hover:text-pink-700"
+              className={`text-base  hover:text-pink-500 ${
+                location.pathname === '/' && 'text-pink-500  '
+              }`}
               onClick={toggleMobileMenu}>
               Home
             </Link>
             <Link
               to="/category"
-              className="text-base text-pink-500 hover:text-pink-700"
+              className={`text-base  hover:text-pink-500 ${
+                location.pathname === '/category' && 'text-pink-500  '
+              }`}
               onClick={toggleMobileMenu}>
               Category
             </Link>
             <Link
               to="/about"
-              className="text-base text-pink-500 hover:text-pink-700"
+              className={`text-base  hover:text-pink-500 ${
+                location.pathname === '/about' && 'text-pink-500   '
+              }`}
               onClick={toggleMobileMenu}>
               About Us
             </Link>

@@ -10,7 +10,7 @@ const Category = () => {
       <h2 className="text-pink-200/80 text-xl mb-4 z-40">Select Category:</h2>
       <img
         className="absolute w-full z-20 h-screen object-cover top-0 left-0"
-        src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.unsplash.com/photo-1535400255456-984241443b29?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="food"
       />
       <div className="absolute w-full h-screen object-cover top-0 left-0 z-20 bg-gradient-to-t from-slate-900 to-slate-50/0"></div>

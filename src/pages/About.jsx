@@ -15,23 +15,24 @@ const AboutUs = () => {
       <div className="absolute w-full h-screen object-cover top-0 left-0 z-10 bg-gradient-to-t from-slate-900 to-slate-50/0"></div>
 
       <p className=" text-pink-200/90 z-20 font-bold max-w-xl mb-4">
-        Welcome to Foodle, your go-to source for delicious and easy-to-follow
-        recipes. We&aposre passionate about providing you with a wide range of
-        mouth-watering dishes that cater to all tastes and skill levels.
+        Welcome to Tasty Bites, your go-to source for delicious and
+        easy-to-follow recipes. We&apos;re passionate about providing you with a
+        wide range of mouth-watering dishes that cater to all tastes and skill
+        levels.
       </p>
       <p className="text-pink-200/90 z-20 font-bold max-w-xl mb-4">
-        Whether you&aposre a seasoned chef or just starting your culinary
-        journey, Foodle is here to inspire and guide you in creating delightful
-        meals for yourself and your loved ones.
+        Whether you&apos;re a seasoned chef or just starting your culinary
+        journey, Tasty Bites is here to inspire and guide you in creating
+        delightful meals for yourself and your loved ones.
       </p>
       <p className="text-pink-200/90 z-20 font-bold max-w-xl mb-4">
         Our team of experienced chefs and food enthusiasts is dedicated to
         sharing their knowledge and love for cooking. Explore our recipe
         collection, cooking tips, and culinary insights to elevate your cooking
         experience.
-      </p>
-      <p className="text-pink-200/90 z-20 font-bold max-w-xl">
-        Thank you for being a part of the Foodle community. Happy cooking!
+        <p className="text-pink-200/90 z-20 font-bold max-w-xl mt-4">
+          Thank you for being a part of the Foodle community. Happy cooking!
+        </p>
       </p>
     </div>
   );
